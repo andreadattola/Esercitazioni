@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../lezione16-06/homework16-06/esercizioprovince/style.css">
+        <script src="esripassoprof.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">                    
+                    <h1 class="item-center">Seleziona la tua provincia</h1>
+                    <select id="province" class="form-control" onchange="selezionato()">
+                        <option disabled selected> Seleziona una provincia</option>
+                        <option value="ct">Catania</option>
+                        <option value="en">Enna</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div id="contentSelectComuni" class="col-12 col-md-8 offset-md-2">                    
+                    <!-- <select  class="mt-4 form-control" id="comuni">
+                        <option>Catania</option>
+                        <option>Aci Castello</option>
+                        <option>Acireale</option>
+                    </select> -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

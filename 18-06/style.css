@@ -1,0 +1,24 @@
+#p{
+    background-color: #eeeeee;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 25px;
+
+}
+
+.erroreCF{
+    border: 1px solid red;
+}
+
+#contatoreContatti {
+    background-color: greenyellow;
+    color:white;
+    padding: 5px;
+}
+
+.spanner{
+ text-align: right;  
+ padding-left: 20px;
+}
+.hidden{
+    display: none;
+}

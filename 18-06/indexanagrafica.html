@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="anagrafica.js"></script>
+    <title>Anagrafica</title>
+</head>
+<body>
+    <div id="p" class="container-fluid my-3">
+        <div class="row">
+            <div class="col-12 text-center py-3">
+                <p id="test" class="h1">La mia prima APP </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p class="h3">Inserimento</p>
+                
+                    <!-- classe form group-->
+                    <div class="form-group">
+                        <!--label etichetta-->
+                        <label>Nome</label>
+                        <input type="text" class="form-control" id="nome">
+                        
+                    </div>
+                    <div class="form-group">
+                        <!--label etichetta-->
+                        <label>Cognome</label>
+                        <input type="text" class="form-control" id="cognome">
+                        
+                    </div>
+                    <div class="form-group">
+                        <!--label etichetta-->
+                        <label>Cod Fiscale</label>
+                        <input type="text" class="form-control" id="cf">
+                        
+                    </div>
+                    <button class="btn btn-primary" onclick="inviadati()">Salva</button>
+                    
+                
+            </div>
+                <div class="col-12 col-sm-4">
+                    <p class="h3">I tuoi contatti: <span id="contatoreContatti"></span></p>
+                    <div class="container-fluid">
+                      <ul id="lista" class="list-group" >
+
+                      </ul>  
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <p class="h3">Cerca</p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    </html>
