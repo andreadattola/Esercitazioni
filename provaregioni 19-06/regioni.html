@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styleregioni.css">
+       
+    </head>
+    <body class="background-all">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">                    
+                    <h1 class="item-center">Seleziona la tua regione</h1>
+                    <div id="regioni">
+                        <select id="select" class="form-control" onchange="addSelect()">
+                            <option disabled selected> Seleziona una provincia</option>
+                            <option id='Lombardia'>Lombardia</option>
+                            <option id='Lazio'>Lazio</option>
+                            <option id='Toscana'>Toscana</option>
+                        </select>
+
+                    </div>
+                    <h3 class="text-center">Province</h3>
+                    <div id="province" >
+                        
+                    </div>
+                    <h3 class="text-center">comuni</h3>
+                    <div id="comunid">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="contentSelectComuni" class="col-12 col-md-8 offset-md-2">                    
+                    <!-- <select  class="mt-4 form-control" id="comuni">
+                        <option>Catania</option>
+                        <option>Aci Castello</option>
+                        <option>Acireale</option>
+                    </select> -->
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="regioni.js"></script>
+</html>
